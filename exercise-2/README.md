@@ -8,15 +8,13 @@ I will have to "web scrap" a HTML page looking for a date, and identifying the c
 1. Change directories at the command line to be inside the exercise-1 folder `cd exercise-2`
 2. There is a file called `main.py` in the `exercise-2` directory
 3. Create a virtual enviroment for this excersie
-```
-```
+
 ```
 python3 -m venv .venv #create virtual enviroment
 
 source .venv/bin/activate # activate the virtual enviroment
 ```
-```
-```
+
 4.. Install required-package in requirement.txt : 
 ```pip install requirement.txt```
 
