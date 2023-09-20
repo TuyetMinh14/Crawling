@@ -19,7 +19,7 @@ def main():
             df = pd.read_csv(download_url,low_memory=False)
             #csv_file = requests.get(download_url).content
             max_value = [] 
-            max_value.append(df['HourlyDryBulbTemperature'].max())
+            max_value.append(df['HourlyDryBulbTemperature'].max)
     print(max(max_value))
     
             
