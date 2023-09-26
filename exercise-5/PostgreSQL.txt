@@ -1,0 +1,5 @@
+docker pull postgres
+
+docker images
+
+docker run --name postgresql -e POSTGRES_USER=lucy -e POSTGRES_PASSWORD=123456 -p 5432:5432 -v /Users/macbook/data:/var/lib/postgresql/data -d postgres:13.3
